@@ -1,48 +1,51 @@
 <h1>Hyper-V VM Lab</h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+The project involves setting up of a Virtual Machine home lab with the Windows in-built Hyper-V VM. VM home lab is very important for any Cybersecurity professional who intends to keep upskilling oneself. This project to just the basic step-by-step.
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Environment Used </h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
-
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b> (21H2)
+  - <b>Windows 10 Pro</b>
 
 <h2>Program walk-through:</h2>
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p>
+Use Windows + R and type "appwiz.cpl". Click the 'Turn windows features on or off'. (You must be on a Windows 10 Pro version). <br/>
+<b>Check the Hyper-V and Windows Hypervisor Platform.:</b>
+<br/>
+<img src="https://i.imgur.com/vWmChTd.png" height="80%" width="80%" alt="Hpyer-V Home Lab set up"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Power the Virtual Machine by going to Windows Administrative Tools and <b>clicking Hyper-V Manager.</b>
+<br/>
+<img src="https://i.imgur.com/czg5k4d.png" height="80%" width="80%" alt="Hpyer-V Home Lab set up"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Begin set up by using the <b>New Virtual Machine Wizard.</b><br/>
+<img src="https://i.imgur.com/Jqsm3Sk.png" height="80%" width="80%" alt="Hpyer-V Home Lab set up"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<b>Assign sufficient memory</b> to enable your VM to run properly. Memory to be assigned is a function of the host machine memory size.<br/>
+<img src="https://i.imgur.com/wnyIbf6.png" height="80%" width="80%" alt="Hpyer-V Home Lab set up"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<b>Network configuration</b> is vital to your VM set up.<br/>
+<img src="https://i.imgur.com/d7kWDXh.png" height="80%" width="80%" alt="Hpyer-V Home Lab set up"/>
+<br/>
+<br/>
+Pick your <b>ISO file</b> from the saved folder and click Finish.<br/>
+<img src="https://i.imgur.com/5MGB0oH.png" height="80%" width="80%" alt="Hpyer-V Home Lab set up"/>
+<br/>
 <br />
+<b>Hyper-V VM configuration</b> is completed. Start your VM for windows instalations.<br/>
+<img src="https://i.imgur.com/njAyy4W.png" height="80%" width="80%" alt="Hpyer-V Home Lab set up"/>
+<br/>
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<b>Hyper-V VM completed 🤳</b><br/>
+<img src="https://i.imgur.com/juI6zQS.png" height="80%" width="80%" alt="Hpyer-V Home Lab set up"/>
+<br/>
 </p>
 
 <!--
