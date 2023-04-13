@@ -1,4 +1,4 @@
-<h1>Hyper-V VM Lab</h1>
+<h1>Microsoft Hyper-V Virtual Machine Set Up</h1>
 
 <h2>Description</h2>
 The project involves setting up of a Virtual Machine home lab with the Windows in-built Hyper-V VM. VM home lab is very important for any Cybersecurity professional who intends to keep upskilling oneself. This project to just the basic step-by-step.
@@ -20,7 +20,7 @@ Use Windows + R and type "appwiz.cpl". Click the 'Turn windows features on or of
 <br />
 Power the Virtual Machine by going to Windows Administrative Tools and <b>clicking Hyper-V Manager.</b>
 <br/>
-<img src="https://i.imgur.com/czg5k4d.png" height="80%" width="80%" alt="Hpyer-V Home Lab set up"/>
+<img src="https://i.imgur.com/czg5k4d.png" height="80%" width="40%" alt="Hpyer-V Home Lab set up"/>
 <br />
 <br />
 Begin set up by using the <b>New Virtual Machine Wizard.</b><br/>
