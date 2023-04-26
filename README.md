@@ -1,7 +1,6 @@
 <img src="https://i.imgur.com/aONGlq0.jpg" height="40%" width="70%" alt="Microsoft Hyper-V"/>
 <h2>Description</h2>
 The project is a walkthrough of Microsoft Hyper-V Virtual Machine set up. Microsoft Hyper-V is a type of hypervisor. A hypervisor is a program used to host multiple virtual machines on one single piece of hardware. The project involves setting up of a Virtual Machine home lab with the Windows in-built Hyper-V VM. VM home lab is very important for any Cybersecurity professional who intends to keep upskilling.
-<br />
 <h2>Environment Used </h2>
 <ul>
   <li>Windows 10 Pro</li>
