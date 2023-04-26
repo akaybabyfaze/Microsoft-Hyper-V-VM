@@ -5,8 +5,11 @@ The project is a walkthrough of Microsoft Hyper-V Virtual Machine set up. Micros
 <h2>Environment Used </h2>
 <ul>
   <li>Windows 10 Pro</li>
+</ul>
+<h2>Technologies Used</h2>
+<ul>
   <li>Hyper-V Manager</li>
-</ul>  
+</ul> 
 <h2>Program walk-through:</h2>
 <p>
 Use Windows + R and type "appwiz.cpl". Click the 'Turn windows features on or off'. (You must be on a Windows 10 Pro version). <br/>
