@@ -6,7 +6,7 @@ The project is a walkthrough of Microsoft Hyper-V Virtual Machine set up. Micros
 <ul>
   <li>Windows 10 Pro</li>
 </ul>
-<h2>Technologies Used</h2>
+<h2>Technology Used</h2>
 <ul>
   <li>Hyper-V Manager</li>
 </ul> 
